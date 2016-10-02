@@ -74,7 +74,7 @@ export class AngularFireAuth extends ReplaySubject<FirebaseAuthState> {
         credentials = obj1;
         config = {};
       } else {
-        config = obj1;
+        credentials = obj1;
       }
     }
     config = this._mergeConfigs(config);
